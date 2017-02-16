@@ -2,45 +2,73 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
-h1 {
+/*h1 {
   margin-bottom: 15px;
+}*/
+
+div#container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 30px;
 }
 
 p {
   border: 3px solid black;
   background-color: #808080;
-  width: 90%;
-  height: 90%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 0px;
+  margin-top:0px;
+  padding-right: 15px;
+  margin-right:10px;
+  margin-left:10px;
   font-family: Helvetica;
   color: black;
-  padding: 10px;
 }
 
 #p1 {
   background-color: #FFB6C1;
   position: relative;
+  /*margin-left: auto;*/
   margin-bottom:0px;
+  margin-top: 0px;
   text-align: right;
-  border-bottom: 0px;
-  
+  padding-right: 15px;
+  padding-left: 15px;
+  width:75px;
+  float: right; 
 }
 #p2 {
   background-color: #FF0000;
+  color:#FFFFFF;
   position: relative;
+  margin-left: auto;
   margin-bottom:0px;
+  margin-top: 0px;
   text-align: right;
-  border-bottom: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width:75px;
+  float: right;
+  clear: left;
 }
 #p3 {
   background-color: #FFFFE0;
   position: relative;
+  margin-left: auto;
   margin-bottom:0px;
+  margin-top:0px;
   text-align: right;
-  border-bottom: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width:75px;
+  float: right;
+  clear: left;
+
+
 
 }
 /* Simple Responsive Framework. */
